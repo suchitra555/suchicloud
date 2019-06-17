@@ -1,3 +1,4 @@
 redis
 Flask==0.12.1
 pyodbc
+pandas
