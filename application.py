@@ -23,10 +23,7 @@ r = redis.StrictRedis(host=myHostname, port=6380,password=myPassword,ssl=True)
 #conn.execute('CREATE TABLE Earthquake (time text,latitude real,longitude real,depth real,mag real,magType text,nst real,gap real,dmin real,rms real,net text,id text,updated text,place text,type text,horizontalError real,depthError real,magError real,magNst real,status text,locationSource text,magSource text)')
 # print("Table created successfully")
 # conn.close()
-<<<<<<< HEAD
 
-=======
->>>>>>> fivethirty/master
 port = int(os.getenv('PORT', 5000))
 @app.route('/')
 def home():
@@ -126,9 +123,7 @@ def options2():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
    app.run(host='0.0.0.0',port=port)
-=======
-   app.run('0.0.0.0',port=port)
+
   
 >>>>>>> fivethirty/master
