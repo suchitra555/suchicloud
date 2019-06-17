@@ -75,7 +75,7 @@ def options():
        print(rows)
        v = str(val)
        if r.get(a):
-           print ('Cached')
+           print ('Caached')
            c.append('Cached')
        else:
            print('Not Cached')
